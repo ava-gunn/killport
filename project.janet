@@ -1,5 +1,5 @@
 (declare-project
-  :name "husk"
+  :name "killport"
   :description "A shell script template"
   :version "1.0.0"
   :dependencies ["https://github.com/ianthehenry/cmd.git"
@@ -8,10 +8,10 @@
 
 (declare-source
   :source ["src/main.janet"]
-  :prefix "husk")
+  :prefix "killport")
 
 (declare-executable
-  :name "husk"
+  :name "killport"
   :entry "src/main.janet")
 
 (import spork/fmt)
